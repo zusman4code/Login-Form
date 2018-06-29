@@ -1,0 +1,149 @@
+body {
+    background: #BF96E5 !important;
+    background-size: 100% 100%;
+    padding: 20px;
+    font-family: cursive;
+  }
+
+  .sideform {
+    height: 90vh;
+    background: #63568E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  form {
+    flex-direction: column;
+    font-family: cursive;
+  }
+
+  .btn-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .btn-form>button {
+    background: none;
+  }
+
+  .btn-form>.btn-login {
+    background: #CB5DF0;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    font-weight: 100;
+  }
+
+  .btn-form>.btn-login:hover {
+    background: none;
+    border: 1px solid #CB5DF0;
+
+
+  }
+
+  .btn-form>.btn-signup {
+    background: none;
+    border: 1px solid #CB5DF0;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    font-weight: 100;
+  }
+
+  .btn-form>.btn-signup:hover {
+    background: #CB5DF0;
+    border: 1px solid #CB5DF0;
+    color: #fff;
+  }
+
+
+  .form-group .input-form {
+    border: none;
+    border-bottom: 2px solid #fff;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  label {
+    color: #fff;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-weight: 100;
+  }
+
+  input {}
+
+  .menu {
+    height: 90vh;
+    background: #fff;
+    width: 100%;
+
+
+
+    background-size: 100% auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .nav-menu {
+    display: flex;
+   
+    margin-top: 20px;
+    position: absolute;
+    z-index:1;
+    
+  }
+
+  .my-nav>li {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .my-nav>li:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #CB5DF0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 47px;
+  }
+
+  .my-nav>li>a:hover {
+    color: #fff;
+  }
+
+  .my-nav>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+  }
+
+  .my-nav>.active-nav {
+    background: #CB5DF0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 47px;
+  }
+
+  .my-nav>.active-nav>a {
+    color: #fff;
+    font-family: cursive;
+  }
+
+
+  .my-slide{
+   
+  
+    
+  }
